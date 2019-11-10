@@ -31,3 +31,17 @@ json-server server.json -p 3333
 //configurar o arquivo index.js da Home para utilizar a api
 //nova pasta em src chamada util com arquivo format.js dentro
 
+############# Configurações Redux - Início
+//instalar redux e sua integração com o react
+yarn add redux react-redux
+//nova pasta em src chamada store (onde os arquivos relacionados ao redux ficarão)
+//configuração inicial em um arquivo index.js na pasta store
+//importar o Provider no arquivo App.js
+//PARA ORGANIZAR: criar uma pasta modules em store
+//dentro da pasta modules criar a pasta para o reducer do carrinho chamada cart
+//dentro da pasta cart criar o arquivo reducer.js
+
+//PARA PODER LIDAR COM VARIOS ESTADOS NO REDUX
+//novo arquivo em modules chamado rootReducer.js
+
+
