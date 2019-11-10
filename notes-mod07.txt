@@ -1,0 +1,12 @@
+################## Configurando rotas
+//Snippet RocketSeat para componentes
+rfc
+// o BrowserRouter foi utilizado diretamente no arquivo App.js
+// O motivo é que um dos componentes estará sempre presente e precisará ter acesso às rotas
+
+############### Estilos Globais
+//configuração padrão na pasta styles o arquivo global.js
+
+############### Header
+// snippet rocketseat para criar o estyled components
+styled
