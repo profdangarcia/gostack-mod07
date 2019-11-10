@@ -27,4 +27,7 @@ yarn add axios
 json-server <nome-arquivo> -p <porta-definida-no-axios> (-w)
 json-server server.json -p 3333
 
+############## Chamadas a API
+//configurar o arquivo index.js da Home para utilizar a api
+//nova pasta em src chamada util com arquivo format.js dentro
 
