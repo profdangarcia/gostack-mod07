@@ -15,3 +15,16 @@ styled
 ############### Home Page
 // biblioteca polished para lidar com cores para o botão
 yarn add polished
+
+############### Configurando API
+// utilizando a biblioteca json-server
+yarn global add json-server
+// pasta services em src com arquivo api.js
+// instalar o axios
+yarn add axios
+//configurar o axios no arquivo api.js
+//rodar comando para deixar o json server rodando (o -w dá um reload no server quando houver alterações)
+json-server <nome-arquivo> -p <porta-definida-no-axios> (-w)
+json-server server.json -p 3333
+
+
