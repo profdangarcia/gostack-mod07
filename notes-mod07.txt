@@ -10,3 +10,8 @@ rfc
 ############### Header
 // snippet rocketseat para criar o estyled components
 styled
+
+
+############### Home Page
+// biblioteca polished para lidar com cores para o botão
+yarn add polished
