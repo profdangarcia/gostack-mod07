@@ -44,4 +44,10 @@ yarn add redux react-redux
 //PARA PODER LIDAR COM VARIOS ESTADOS NO REDUX
 //novo arquivo em modules chamado rootReducer.js
 
+############## Utilizando o Redux - Adicionar itens ao carrinho
+//importar o connect (do react-redux) à pagina Home
+//mover o export default para a parte de baixo do componente
+//alterar o botão de adicionar ao carrinho
+//configurar o reducer do carrinho
 
+//configurar o header para utilizar o reducer do carrinho
