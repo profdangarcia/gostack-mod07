@@ -1,4 +1,4 @@
-################## Configurando rotas
+﻿################## Configurando rotas
 //Snippet RocketSeat para componentes
 rfc
 // o BrowserRouter foi utilizado diretamente no arquivo App.js
@@ -51,3 +51,20 @@ yarn add redux react-redux
 //configurar o reducer do carrinho
 
 //configurar o header para utilizar o reducer do carrinho
+
+
+############## Reactotron + Redux
+// instalar as dependencias 
+yarn add reactotron-react-js reactotron-redux
+// criar uma pasta config em src com o arquivo
+// configurar o arquivo
+// nova regra no arquivo .eslintrc.js
+'no-console': ["error", {allow: ["tron"]}]
+
+//alteração do arquivo index.js da pasta store para integrar o redux ao reactotron
+//importar as configurações do reactotron ao App.js antes da importação do store do redux
+
+
+############## Listagem dos produtos do carrinho
+//configurar o index.js de Cart para utilizar o Redux e realizar as modificações necessárias
+//alterar o reducer do carrinho para adicionar um campo de quantidade ao estado (amount)
