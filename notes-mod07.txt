@@ -80,3 +80,13 @@ yarn add immer
 'no-param-reassign': 'off'
 
 ############## Remover o produto do carrinho
+//nova action no botão de remoção
+//novo case no reducer do carrinho
+
+############## Refatorando as actions
+//novo arquivo chamado action.js na pasta /src/store/modules/cart
+//alterações das actions dos arquivos index.js tanto da Home quanto do Cart
+//importação das actions para os mesmos arquivos de index.js
+//utilização do mapDispatchToProps para converter as actions para props
+//importação do bindActionCreators do 'redux' para os arquivos que irão utilizar as actions
+//passar o mapDispatchToProps para o connect() como segundo parâmetro
