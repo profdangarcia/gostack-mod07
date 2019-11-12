@@ -90,3 +90,5 @@ yarn add immer
 //utilização do mapDispatchToProps para converter as actions para props
 //importação do bindActionCreators do 'redux' para os arquivos que irão utilizar as actions
 //passar o mapDispatchToProps para o connect() como segundo parâmetro
+
+############## Utilizando botões de adicionar ou remover na quantidade

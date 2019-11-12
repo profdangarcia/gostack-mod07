@@ -19,7 +19,6 @@ function Cart({ cart, removeFromCart }) {
             <th>PRODUTO</th>
             <th>QTD</th>
             <th>SUBTOTAL</th>
-            <th>REMOVER</th>
             <th />
           </tr>
         </thead>
