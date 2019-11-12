@@ -78,3 +78,5 @@ yarn add immer
 // realizar a modificação no reducer do carrinho
 // nova rule no .eslintrc.js para nao acusar erros na alteração de um parametro 
 'no-param-reassign': 'off'
+
+############## Remover o produto do carrinho
