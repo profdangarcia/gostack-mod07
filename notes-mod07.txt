@@ -127,4 +127,10 @@ yarn add reactotron-redux-saga
 ############# Validação de estoque
 // alteração do arquivo sagas.js
 
+############# React Toastify - Para mensagens de warning, erro e sucesso
+// nova dependencia
+yarn add react-toastify
+// importar em App.js o ToastContainer
+// importar os estilos do Toastify no arquivo global.js da pasta styles
+// importar o toast no arquivo sagas.js
 
