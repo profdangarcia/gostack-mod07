@@ -92,3 +92,22 @@ yarn add immer
 //passar o mapDispatchToProps para o connect() como segundo parâmetro
 
 ############## Utilizando botões de adicionar ou remover na quantidade
+// duas novas funções no cart index.js
+// nova action no arquivo de actions.js do cart
+// atribuição das funções aos botões
+
+############# Calculo de totais
+// alteração do objeto recebido no carrinho
+// criação de nova props chamada totais ao carrinho
+
+############ Mostrando quantidade de cada item no carrinho
+// criar nova prop através do setStateToProps ao index.js da Home
+
+############ Redux Saga - Middlewares para o Redux
+// nova dependencia
+yarn add redux-saga
+// novo arquivo chamado sagas.js no module de cart
+// alteração das actions
+// alteração no index.js da pagina Home
+// alteração do Reducer.js do carrinho
+

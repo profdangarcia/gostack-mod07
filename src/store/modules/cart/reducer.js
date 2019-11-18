@@ -2,7 +2,7 @@ import produce from 'immer';
 
 export default function cart(state = [], action) {
   switch (action.type) {
-    case '@cart/ADD':
+    case '@cart/ADD_SUCCESS':
       /** o produce recebe o estado atual e o draft é o rascunho
        * do estado que pode ser modificado */
       return produce(state, draft => {

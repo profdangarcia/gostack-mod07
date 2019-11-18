@@ -23,13 +23,16 @@ class Home extends Component {
     this.setState({ products: data });
   }
 
-  handleAddProduct = product => {
-    // todo componente com connect recebe a propriedade dispatch do redux
-    const { addToCart } = this.props;
+  handleAddProduct = id => {
+    // antes do redux saga
+    // const { addToCart } = this.props;
 
-    addToCart(product);
+    const { addToCartRequest } = this.props;
+
+    addToCartRequest(id);
 
     // Antes da refatoração
+    // todo componente com connect recebe a propriedade dispatch do redux
     // dispatch({
     //   type: 'ADD_TO_CART',
     //   product,
@@ -50,7 +53,7 @@ class Home extends Component {
 
             <button
               type="button"
-              onClick={() => this.handleAddProduct(product)}
+              onClick={() => this.handleAddProduct(product.id)}
             >
               <div>
                 <MdAddShoppingCart size={16} color="#fff" />{' '}
