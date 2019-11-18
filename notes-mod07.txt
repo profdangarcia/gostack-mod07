@@ -141,3 +141,12 @@ yarn add react-toastify
 // alterações no saga.js
 // alteração no reducer
 
+
+########### Realizando navegação pelo Saga
+// nova dependencia
+yarn add history
+//novo arquivo chamado history.js em services
+//importar o arquivo criado no App.js
+//alteração de BrowserRouter para Router em App.js
+// importar o history no arquivo sagas.js
+
