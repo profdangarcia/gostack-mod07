@@ -6,13 +6,8 @@ export default function cart(state = [], action) {
       /** o produce recebe o estado atual e o draft é o rascunho
        * do estado que pode ser modificado */
       return produce(state, draft => {
-        // verificação da existencia do produto no carrinho
-        const productIndex = draft.findIndex(p => p.id === action.product.id);
-        if (productIndex >= 0) {
-          draft[productIndex].amount += 1;
-        } else {
-          draft.push({ ...action.product, amount: 1 });
-        }
+        const { product } = action;
+        draft.push(product);
       });
     case '@cart/REMOVE':
       return produce(state, draft => {

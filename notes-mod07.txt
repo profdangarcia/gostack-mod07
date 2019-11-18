@@ -118,4 +118,10 @@ yarn add redux-saga
 ############## Reactotron + Saga
 // nova dependencia
 yarn add reactotron-redux-saga
+// realização de configurações no index.js da pasta store
+
+############## Separando Actions
+// Alteração do reducer de adicionar ao carrinho
+// Transferencia da responsabilidade de verificar a existencia no carrinho para o Saga
+
 
