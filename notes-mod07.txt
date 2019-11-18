@@ -124,4 +124,7 @@ yarn add reactotron-redux-saga
 // Alteração do reducer de adicionar ao carrinho
 // Transferencia da responsabilidade de verificar a existencia no carrinho para o Saga
 
+############# Validação de estoque
+// alteração do arquivo sagas.js
+
 
