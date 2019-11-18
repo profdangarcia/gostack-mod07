@@ -134,3 +134,10 @@ yarn add react-toastify
 // importar os estilos do Toastify no arquivo global.js da pasta styles
 // importar o toast no arquivo sagas.js
 
+
+############ Controle de estoque nos botões de adição
+// divisão da action de alterar estoque em duas Request (ouvida pelo saga) e a Success (ouvida pelo reducer)
+// alterações do index.js do carrinho
+// alterações no saga.js
+// alteração no reducer
+
