@@ -3,7 +3,15 @@ import createSagaMiddleware from 'redux-saga';
 import rootReducer from './modules/rootReducer';
 import rootSaga from './modules/rootSaga';
 
-const sagaMiddleware = createSagaMiddleware();
+// para o plugin do reactotron com o ReduxSaga
+const sagaMonitor =
+  process.env.NODE_ENV === 'development'
+    ? console.tron.createSagaMonitor()
+    : null;
+
+const sagaMiddleware = createSagaMiddleware({
+  sagaMonitor,
+});
 
 // integração do redux ao reactotron (antes do redux-saga)
 // const enhancer =
