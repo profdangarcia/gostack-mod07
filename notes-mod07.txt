@@ -150,3 +150,23 @@ yarn add history
 //alteração de BrowserRouter para Router em App.js
 // importar o history no arquivo sagas.js
 
+
+########## Conversão dos componentes para utilizar hooks
+// nova dependencia
+yarn add eslint-plugin-react-hooks -D
+// duas novas rules no eslintrc.js 
+'react-hooks/rules-of-hooks': 'error',
+'react-hooks/exhaustive-deps': 'warn'
+//adicionar o plugin
+'react-hooks'
+
+//alterações no componente Home para utilizar hooks
+// useState e useEffect
+
+############### Redux com Hooks
+// utilizar o useSelector do redux ao invés do connect
+
+
+
+
+
